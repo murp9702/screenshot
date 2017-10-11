@@ -5,10 +5,10 @@
 
 }
 
-.banner {
+.linkbanner {
   display: inline-block;
   background-color: gainsboro;
-  border border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
   width: 100%;
 }
 
@@ -28,4 +28,17 @@ p {
 
 #home {
   color: red;
+}
+
+.blue-banner {
+  background-color: cornflowerblue;
+}
+
+.tab-button {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  background-color: beige;
+  margin: 5px;
+  border: 1px solid black;
 }
