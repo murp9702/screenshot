@@ -7,19 +7,20 @@
 
 .linkbanner {
   display: inline-block;
-  background-color: gainsboro;
+  background-color: #F0F0F0;
   border-bottom: 1px solid black;
   width: 100%;
 }
 
 #edit {
-  float: right;
+  position: relative;
+  left: 327px;
 }
 
 p {
   display: inline-block;
   margin: 1px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #popularReddits {
@@ -27,18 +28,59 @@ p {
 }
 
 #home {
-  color: red;
+  color: #FD3B06;
 }
 
 .blue-banner {
-  background-color: cornflowerblue;
+  background-color: #CEE3F8;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+#hot {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid #CEE3F8;
+  background-color: white;
+  color: #FD3B06
 }
 
 .tab-button {
+  position: relative;
   display: inline-block;
   height: auto;
   width: auto;
-  background-color: beige;
-  margin: 5px;
-  border: 1px solid black;
+  background-color: #EFF7FF;
+  margin-left: 5px;
+  margin-right: 5px;
+  top: 3px;
+  padding: 2px;
+  color: #356599;
+}
+
+#messages {
+  position: relative;
+  top: 5px;
+  height: 15px;
+  width: 20px;
+}
+
+.userInfo{
+  height: 25px;
+  position: relative;
+  left: 923px;
+  background-color: #EFF7FF;
+  border-top-left-radius: 10px;
+  padding-left: 3px;
+  font-size: 12px;
+
+}
+div {
+  display: inline-block;
+}
+
+#logo {
+  position: relative;
+  top: 5px;
 }
