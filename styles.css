@@ -112,8 +112,183 @@ div {
 }
 
 .content-box {
-  width: 1000px;
+  width: 1066px;
   height: 90px;
   display: inline-block;
-  border: 1px solid black;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.content-box-large {
+  width: 1066px;
+  height: 90px;
+  display: inline-block;
+  margin: 5px;
+  margin-left: 20px;
+}
+
+.text-box.engineers {
+  font-size: 18px;
+  width:890px;
+  height: 50px;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  color: #0000FF
+}
+
+.text-box.amazon {
+  font-size: 18px;
+  width:890px;
+  height: 50px;
+  position: relative;
+  bottom: 36px;
+  left: 20px;
+  color: #0000FF
+}
+
+.text-box.thanks {
+  font-size: 18px;
+  width:890px;
+  height: 50px;
+  position: relative;
+  bottom: 39px;
+  left: 20px;
+  color: #0000FF
+}
+
+.text-box.diy {
+  font-size: 18px;
+  width:890px;
+  height: 50px;
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+  color: #0000FF
+}
+
+.text-box.made {
+  font-size: 18px;
+  width:890px;
+  height: 50px;
+  position: relative;
+  bottom: 40px;
+  left: 20px;
+  color: #0000FF
+}
+
+.rank {
+  position: relative;
+  bottom: 20px;
+  left: 8px;
+}
+
+.upvotes {
+  position: relative;
+  bottom: 20px;
+}
+
+.img {
+  position: relative;
+  top: 8px;
+}
+
+.up-arrow {
+  position: relative;
+  bottom: 40px;
+  left: 25px;
+}
+
+.down-arrow {
+  transform: rotate(0.5turn);
+  position: relative;
+  top: -3px;
+  right: 28px;
+
+}
+
+.submitted-by.engineers{
+  position: relative;
+  bottom: 35px;
+  left: 175px;
+  font-size: 12px;
+  color: #8C919B
+}
+
+.submitted-by.amazon{
+  position: relative;
+  bottom: 62px;
+  left: 170px;
+  font-size: 12px;
+  color: #8C919B
+}
+
+.submitted-by.thanks{
+  position: relative;
+  bottom: 60px;
+  left: 171px;
+  font-size: 12px;
+  color: #8C919B
+}
+
+.submitted-by.diy{
+  position: relative;
+  bottom: 63px;
+  left: 171px;
+  font-size: 12px;
+  color: #8C919B
+}
+
+.submitted-by.made{
+  position: relative;
+  bottom: 63px;
+  left: 171px;
+  font-size: 12px;
+  color: #8C919B
+}
+.comments.engineers{
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  left: -35px;
+  color: #888888
+}
+
+.comments.amazon{
+  display: inline-block;
+  position: relative;
+  bottom: 42px;
+  left: -71px;
+  color: #888888
+}
+
+.comments.thanks{
+  display: inline-block;
+  position: relative;
+  bottom: 41px;
+  left: -108px;
+  color: #888888
+}
+.comments.diy{
+  display: inline-block;
+  position: relative;
+  bottom: 42px;
+  left: -60px;
+  color: #888888
+}
+.comments.made{
+  display: inline-block;
+  position: relative;
+  bottom: 42px;
+  left: -79px;
+  color: #888888
+}
+.content-box-large .comments {
+  left: -93px;
+}
+
+.commentbox {
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
 }
